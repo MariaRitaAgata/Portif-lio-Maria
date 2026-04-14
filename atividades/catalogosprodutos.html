@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos</title>
+
+    <style>
+        body {
+            background-color: rgb(8, 71, 6);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(8, 126, 34);
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            padding: 10px;
+        }
+
+        th {
+            background-color: rgb(99, 0, 86);
+            color: aliceblue;
+            padding: 10px;
+        }
+
+        td {
+            padding: 5px;
+            color: aliceblue;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(26, 175, 38);
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        a:hover {
+            color: rgb(24, 18, 22);
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Tabela de Produtos</h1>
+
+    <table border="1">
+        <tr> <!--LINHAS-->
+            <td>Imagem</td> <!--COLUNAS-->
+            <td>Nome</td>
+            <td>Preço</td>
+            <td>Link</td>
+        </tr>
+
+        <tr>
+            <td> <img src="imagens/L.HP.png" alt="livro" width="100"></td>
+            <td>3 livros ilustrados</td>
+            <td>634 reais</td>
+            <td>
+                <a href="https://www.amazon.com.br/harry-potter-ilustrado-Livros/s?k=harry+potter+ilustrado&rh=n%3A6740748011"
+                    target="_blank">
+                <p>Link dos livros</p> </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="imagens/P.J.jpg" alt="Percy Jackson" width="70"></td>
+            <td>Os Olimpianos</td>
+            <td>580 reais</td>
+            <td>
+                <a href="https://www.amazon.com.br/Box-Percy-Jackson-olimpianos-edi%C3%A7%C3%A3o/dp/8551008889"
+                    target="_blank">
+                <p>Link do box</p></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="imagens/Alice.jfif" alt="Alice no pais das maravilhas" width="100"></td>
+            <td>Alice No Pais Das Maravilhas</td>
+            <td>37 reais</td>
+            <td>
+                <a href="https://www.amazon.com.br/Alice-Pa%C3%ADs-das-Maravilhas-Classic/dp/8594541759"
+                    target="_blank">
+                <p>Link do livro</p></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="imagens/J.V.jpg" alt="Jogos Vorazes" width="100"></td>
+            <td>livro 1 ilustrado</td>
+            <td>113 reais</td>
+            <td>
+                <a href="https://www.amazon.com.br/Jogos-vorazes-ilustrado-Suzanne-Collins/dp/6555324791"
+                    target="_blank">
+                <p>Link do livro</p></a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
